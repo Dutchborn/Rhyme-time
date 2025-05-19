@@ -63,11 +63,12 @@
 
 This project is deployed using GitHub Pages.
 
+
 ---
 
 ## 👉 View Live Demo
 
-(replace with your actual GitHub Pages link)
+https://dutchborn.github.io/Rhyme-time/
 
 ---
 
