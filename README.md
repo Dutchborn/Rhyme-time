@@ -41,8 +41,6 @@
 
 ## 📷 Screenshots
 
-> Include your screenshots in a `screenshots/` or `assets/screenshots/` folder and reference them here.
-
 ```markdown
 ![Welcome Screen](assets/screenshots/welcome.png)
 ![Game Screen](assets/screenshots/game.png)
