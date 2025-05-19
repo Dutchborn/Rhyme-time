@@ -63,15 +63,9 @@ rhyme-time/
 
 
 ## 📦 Deployment
-
 This project is deployed using GitHub Pages.
 
-
----
-
-## 👉 View Live Demo
-
-(https://dutchborn.github.io/Rhyme-time/)
+👉 [Play Rhyme Time](https://dutchborn.github.io/Rhyme-time/)
 
 ---
 
