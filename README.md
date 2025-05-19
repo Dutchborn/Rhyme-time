@@ -48,15 +48,19 @@
 
 ## 📁 Project Structure
 .
+rhyme-time/
 ├── index.html
-├── script.js
-├── style.css
 ├── README.md
-└── assets/
-    └── screenshots/
-        ├── welcome.png
-        ├── game.png
-        └── end.png
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── script.js
+│   └── screenshots/
+│       ├── welcome.png
+│       ├── game.png
+│       └── end.png
+
 
 ## 📦 Deployment
 
