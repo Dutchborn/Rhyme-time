@@ -42,9 +42,9 @@
 ## 📷 Screenshots
 
 ```markdown
-![Welcome Screen](assets/screenshots/welcome.png)
-![Game Screen](assets/screenshots/game.png)
-![End Screen](assets/screenshots/end.png)
+![Welcome Screen](assets/screenshots/Welcome.png)
+![Game Screen](assets/screenshots/Game.png)
+![End Screen](assets/screenshots/End.png)
 
 
 ## 📁 Project Structure
