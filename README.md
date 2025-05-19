@@ -41,7 +41,6 @@
 
 ## 📷 Screenshots
 
-```markdown
 ![Welcome Screen](assets/screenshots/Welcome.png)
 ![Game Screen](assets/screenshots/Game.png)
 ![End Screen](assets/screenshots/End.png)
@@ -68,7 +67,7 @@ This project is deployed using GitHub Pages.
 
 ## 👉 View Live Demo
 
-https://dutchborn.github.io/Rhyme-time/
+(https://dutchborn.github.io/Rhyme-time/)
 
 ---
 
