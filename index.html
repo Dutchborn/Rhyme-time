@@ -17,6 +17,26 @@
 <body>
   <div class="container text-center mt-5">
 
+    <!-- How to Play Button -->
+    <button id="howToPlayBtn">How to Play</button>
+
+    <!-- Modal Structure -->
+    <div id="instructionsModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>How to Play Rhyme-Time</h2>
+        <p>1. Select a difficulty</p>
+        <p>2. Click the “Start Game” button to begin.</p>
+        <p>3. A random word will appear on the screen.</p>
+        <p>4. Type a word that rhymes with the given word.</p>
+        <p>5. The game checks if your word is a true rhyme using the Datamuse API.</p>
+        <p>6. Correct? Score a point! Wrong? Try again!</p>
+        <p>7. Keep going to beat your high score.</p>
+        <p>Tip: Rhymes are based on sound, not just spelling.</p>
+      </div>
+    </div>
+
+
     <h1 class="mb-4">🎤 Rhyming Game</h1>
 
     <div class="form-check form-switch text-end me-3"  id="theme-toggle-container">

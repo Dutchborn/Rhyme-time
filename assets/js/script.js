@@ -46,6 +46,28 @@ const levelDescriptions = {
   master: "Vocabulary-rich and creative wordplay required!"
 };
 
+// Get elements
+const modal = document.getElementById('instructionsModal');
+const btn = document.getElementById('howToPlayBtn');
+const closeBtn = document.querySelector('.close');
+
+// Show modal
+btn.addEventListener('click', () => {
+  modal.style.display = 'block';
+});
+
+// Hide modal on close button click
+closeBtn.addEventListener('click', () => {
+  modal.style.display = 'none';
+});
+
+// Hide modal if user clicks outside the box
+window.addEventListener('click', (event) => {
+  if (event.target === modal) {
+    modal.style.display = 'none';
+  }
+});
+
 
 
 // game state variables
@@ -54,7 +76,7 @@ let time = 60;
 let timerInterval;
 let currentWord = "";
 let selectedLevel = "beginner"; // Default level
-let currentWordPool = []; 
+let currentWordPool = [];
 let streak = 0; // Track the number of correct rhymes in a row
 let skipsLeft = 3; // Number of skips available
 
@@ -134,10 +156,10 @@ function checkRhyme() {
 
   // Helpful tips for inccorrect rhymes
   const wrongMessages = [
-  "❌ Not quite. Try a word that sounds like it rhymes!",
-  "🧐 Double check the pronunciation — not just spelling.",
-  "🔊 Rhyming is about sound! Try a closer match.",
-  "🤓 Not all similar-looking words are rhymes."
+    "❌ Not quite. Try a word that sounds like it rhymes!",
+    "🧐 Double check the pronunciation — not just spelling.",
+    "🔊 Rhyming is about sound! Try a closer match.",
+    "🤓 Not all similar-looking words are rhymes."
   ];
 
   // Check if the user's input rhymes with the current word
@@ -162,15 +184,15 @@ function checkRhyme() {
 
         nextWord();
       } else {
-          streak = 0; // Reset streak on wrong answer
-          document.getElementById("streak").textContent = streak;
-          document.getElementById("feedback").textContent =
+        streak = 0; // Reset streak on wrong answer
+        document.getElementById("streak").textContent = streak;
+        document.getElementById("feedback").textContent =
           wrongMessages[Math.floor(Math.random() * wrongMessages.length)];
-        }
+      }
     })
     .catch(() => {
       document.getElementById("feedback").textContent = "Error checking rhyme. Try again.";
-    });  
+    });
 }
 
 function skipWord() {
